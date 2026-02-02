@@ -7,7 +7,7 @@ services:
       - ./html:/usr/share/nginx/html
 
   app:
-    image: aminespinoza/websiteplatzi:latest
+    image: juanmarin/websiteapp:latest
     volumes:
       - app_data:/app/data
 
